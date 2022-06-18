@@ -4,28 +4,28 @@ import numpy as np
 import altair as alt
 
 
-st.title('title')
-
-st.header('header')
-
-st.write('Hello, *World!* :sunglasses:')
-
-st.write(1234)
-
-
-dict = {
-    'col1': ['a', 'b', 'c', 'd', 'e'],
-    'col2': [1,2,3,4,5]
-
-}
-st.header("Writing a dictionary")
-st.write(dict)
-
-df = pd.DataFrame(dict)
-
-st.header("Writing a data frame")
-
-st.write("on top of df", df, "at the bottm of df")
+# st.title('title')
+#
+# st.header('header')
+#
+# st.write('Hello, *World!* :sunglasses:')
+#
+# st.write(1234)
+#
+#
+# dict = {
+#     'col1': ['a', 'b', 'c', 'd', 'e'],
+#     'col2': [1,2,3,4,5]
+#
+# }
+# st.header("Writing a dictionary")
+# st.write(dict)
+#
+# df = pd.DataFrame(dict)
+#
+# st.header("Writing a data frame")
+#
+# st.write("on top of df", df, "at the bottm of df")
 
 df2 = pd.DataFrame(
 np.random.randn(200,3),  columns =['a','b','c']
